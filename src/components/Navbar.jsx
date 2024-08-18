@@ -2,15 +2,13 @@ import { Dropdown, DropdownButton } from "react-bootstrap";
 import "../styles.css";
 
 function Navbar(){
-    return(
-        <header>
-            <div className="navbar">
-                <nav>
-                    <a className="logo" href="/">WCI CS Club</a>
-                    <a className="nav-button" href="/members">Members</a>
-                </nav>
-            </div>
-        </header>
+    return( 
+        <nav>  
+            <Link to="/">Home</Link> 
+            <Link to="/about">About</Link> 
+            <Link to="/members">Members</Link> 
+            <Link to="/projects">Projects</Link>
+        </nav>    
     );
 }
 
