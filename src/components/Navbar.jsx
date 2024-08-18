@@ -1,5 +1,4 @@
-import { Dropdown, DropdownButton } from "react-bootstrap";
-import "../styles.css";
+import "../styles/navbar.css";
 
 function Navbar(){
     return( 
