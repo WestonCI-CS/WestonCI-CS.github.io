@@ -1,0 +1,13 @@
+.navbar {
+    display: inline;
+}
+
+.nav-button {
+    padding-left: 50px;
+    font-size: 50px;
+}
+
+.logo {
+    display: inline;
+    font-size: 50px;
+}
