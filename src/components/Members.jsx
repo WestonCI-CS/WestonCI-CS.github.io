@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-function Resume(){
+export default function Members(){
     return(
         <div>
             <Container>
@@ -9,5 +9,3 @@ function Resume(){
         </div>
     );
 }
-
-export default Members;
