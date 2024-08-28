@@ -15,11 +15,12 @@ code {
 
 :root {
   --bg: rgb(24, 24, 24);
+  --bg-secondary: rgb(28, 28, 28);
   --bg-accent: rgb(32, 32, 32);
   --text-color: rgb(255, 255, 255);
   --border: 1px solid rgb(39, 39, 39);
   --border-radius: 30px;
-  --speed: 500ms;
+  --speed: 300ms;
 }
 
 ul {

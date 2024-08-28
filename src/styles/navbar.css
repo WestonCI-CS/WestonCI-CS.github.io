@@ -101,24 +101,24 @@ nav {
         top: 0;
         width: 250px;
         height: 100%;
-        background-color: var(--bg-accent); 
+        background-color: var(--bg-secondary); 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         transform: translateX(-250px);
-        z-index: 0;
-        transition: transform 0.3s ease-out;
+        z-index: 100;
+        transition: transform var(--speed) ease-out;
     }
     
     .right-nav.show {
         transform: translateX(0px);
-        transition: transform 0.3s ease-in;
+        transition: transform var(--speed) ease-in;
     }
     
     .dropdown-btn {
         position: relative;
-        z-index: 1;
+        z-index: 101;
         display: flex;
         float: left;
         margin-left: 20px;

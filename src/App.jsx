@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home';
-import Members from './components/Members';
-import Navbar from './components/navbar/Navbar';
+import Home from './pages/Home';
+import Members from './pages/Members';
+import Navbar from './components/header/Navbar';
+import Footer from './components/footer/Footer';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="members" element={<Members />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import NavItem from "./NavItem";
 import "../../styles/navbar.css";
-import { Nav } from "react-bootstrap";
 
 export default function Navbar(){
     const [menuOpen, setMenuOpen] = useState(false);
