@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import "./styles/fadeIn.css";
 import Home from './pages/Home';
 import Members from './pages/Members';
 import Navbar from './components/header/Navbar';

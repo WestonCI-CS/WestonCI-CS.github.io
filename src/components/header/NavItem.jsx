@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function NavItem(props) {
-    return (
+    return(
         <li className="nav-item">
             <Link 
                 className={props.className} 

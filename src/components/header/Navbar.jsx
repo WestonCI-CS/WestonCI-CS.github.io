@@ -13,7 +13,7 @@ export default function Navbar(){
     return( 
         <nav>  
             <button className="dropdown-btn" onClick={toggleMenu}>☰</button>
-            <Link className="home-button" to="/">WCI Computer Science</Link>
+            <Link className="home-button" to="/">WCI COMPUTER SCIENCE</Link>
             <ul className={`right-nav ${menuOpen ? 'show' : ''}`}>
                 <NavItem 
                     link="/about" 

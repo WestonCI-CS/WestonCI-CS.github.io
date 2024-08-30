@@ -1,0 +1,21 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    scale: 0.9;
+    /* Fallback for browsers that don't support animation */
+    transition: opacity var(--speed), transform var(--speed), scale var(--speed); 
+}
+
+.fade-in.is-visible {
+    animation: fade-in var(--speed) forwards; /* Apply the animation */
+}

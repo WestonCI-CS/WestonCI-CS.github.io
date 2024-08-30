@@ -17,10 +17,10 @@ code {
   --bg: rgb(24, 24, 24);
   --bg-secondary: rgb(28, 28, 28);
   --bg-accent: rgb(32, 32, 32);
-  --text-color: rgb(255, 255, 255);
+  --text-colour: rgb(255, 255, 255);
   --border: 1px solid rgb(39, 39, 39);
   --border-radius: 30px;
-  --speed: 300ms;
+  --speed: 500ms;
 }
 
 ul {
@@ -30,6 +30,16 @@ ul {
 }
 
 a {
-  color: var(--text-color);
+  color: var(--text-colour);
   text-decoration: none;
+}
+
+h1 {
+  color: var(--text-colour);
+  font-size: 2.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px rgb(190, 190, 190);
 }

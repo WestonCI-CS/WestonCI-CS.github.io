@@ -2,13 +2,11 @@ footer {
     background-color: var(--bg-accent);
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
-    width: 100%;
     z-index: 99;
 }
 
 .copyright {
-    color: var(--text-color);
+    color: var(--text-colour);
     font-size: 0.8rem;
 }
