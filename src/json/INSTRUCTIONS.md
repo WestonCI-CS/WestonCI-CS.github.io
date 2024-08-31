@@ -11,9 +11,12 @@ please begin by doing the following steps:
    will be.
 
 {
-    "name": "full name here"
-    "role": "your role in the club here"
-    "image": "link to an image for your profile picture here"
+    "name": "full name here",
+    "role": "your role in the club here",
+    "image": "link to an image for your profile picture here",
+    "gradientStart": "hexcode here (You can find hex codes using 
+    https://htmlcolorcodes.com/ and paste the HEX code in here)",
+    "gradientEnd": "hexcode here",
     "link": "a direct link to your personal page (You can ignore this if you don't have your own page yet)"
 }
 

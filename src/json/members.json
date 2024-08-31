@@ -3,12 +3,16 @@
         "name": "Vu Nguyen",
         "role": "Founder/President",
         "image": "https://avatars.githubusercontent.com/u/145513842?v=4",
+        "gradientStart": "#f5f5f5",
+        "gradientEnd": "#fda085",
         "link": ""
     },
     {
         "name": "Example",
         "role": "Example",
         "image": "https://avatars.githubusercontent.com/u/145513842?v=4",
+        "gradientStart": "#23deff",
+        "gradientEnd": "#23a2ff",
         "link": ""
     }
 ]

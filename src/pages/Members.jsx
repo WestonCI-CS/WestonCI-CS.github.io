@@ -8,7 +8,9 @@ export default function Members(){
             key={index}
             image={member.image}
             name={member.name}
+            style={{backgroundImage: `linear-gradient(120deg, ${member.gradientStart} 0%, ${member.gradientEnd} 100%)`}}
             role={member.role}
+            link={member.link}
         />
     ));
 

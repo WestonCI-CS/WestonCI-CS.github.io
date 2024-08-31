@@ -4,10 +4,10 @@
     border: 4px solid var(--text-colour);
     border-radius: 12px;
     overflow: hidden;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     padding: 4vw;
+    margin: var(--margins);
 }
 
 .card:hover {
@@ -16,8 +16,8 @@
 }
 
 .card-image {
-    width: clamp(150px, 15vw, 500px); 
-    height: clamp(150px, 15vw, 500px); 
+    width: clamp(100px, 15vw, 500px); 
+    height: clamp(100px, 15vw, 500px); 
     border-radius: 50%;
     border: 3px solid var(--text-colour);
 }
@@ -28,7 +28,7 @@
 
 .card-name {
     margin: 0;
-    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-size: clamp(1.5rem, 5vw, 5rem);
     color: var(--text-colour);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

@@ -17,6 +17,7 @@ code {
   --bg: rgb(24, 24, 24);
   --bg-secondary: rgb(28, 28, 28);
   --bg-accent: rgb(32, 32, 32);
+  --margins: 0 10vw 0 10vw;
   --text-colour: rgb(255, 255, 255);
   --border: 1px solid rgb(39, 39, 39);
   --border-radius: 30px;
