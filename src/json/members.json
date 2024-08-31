@@ -8,6 +8,14 @@
         "link": ""
     },
     {
+        "name": "Joshua Figueroa Caguimbay",
+        "role": "Vice President",
+        "image": "https://media.discordapp.net/attachments/971044193088716840/1279274686085333092/IMG_6489.png?ex=66d3d8e4&is=66d28764&hm=403bd0dfeebb74e89e2db5906b6414a4cb3e7c93fc70114dcc03eaada5f77d5e&=&format=webp&quality=lossless&width=673&height=671",
+        "gradientStart": "#224b9c",
+        "gradientEnd": "#83e1ff",
+        "link": ""
+    }, 
+    {
         "name": "Example",
         "role": "Example",
         "image": "https://avatars.githubusercontent.com/u/145513842?v=4",
