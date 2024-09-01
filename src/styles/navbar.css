@@ -13,15 +13,14 @@
 nav {
     overflow: hidden;
     margin-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     animation: fade-down var(--speed) 0.4s backwards;
 }
 
 .home-button {
     float: left;
     padding: .25rem;
-    margin-left: 250px;
-    margin-right: 50px;
+    margin-left: 15vw;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 1px 2px 2px rgb(190, 190, 190);
@@ -42,7 +41,7 @@ nav {
 .right-nav {
     float: right;
     margin-top: 10px;
-    margin-right: 250px;
+    margin-right: 13vw;
 }
 
 .dropdown-btn {
@@ -89,19 +88,7 @@ nav {
     transition: ease 0.2s;
 }
 
-@media screen and (max-width: 1440px) {
-    .home-button {
-        margin-left: 150px;
-
-    }
-
-    .right-nav {
-        margin-right: 150px;
-    }
-    
-}
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1340px) {
     .home-button {
         margin: 0;
         margin-left: -50px;

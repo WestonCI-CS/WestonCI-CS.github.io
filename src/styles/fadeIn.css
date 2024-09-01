@@ -11,7 +11,6 @@
 
 .fade-in {
     opacity: 0;
-    scale: 0.9;
     /* Fallback for browsers that don't support animation */
     transition: opacity var(--speed), transform var(--speed), scale var(--speed); 
 }

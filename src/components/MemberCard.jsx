@@ -13,7 +13,7 @@ export default function MemberCard(props){
                     />
                     <div className="card-content">
                         <h2 className="card-name">{props.name}</h2>
-                        <p className="card-role">{props.role}</p>
+                        <h3 className="card-role">{props.role}</h3>
                     </div>
                 </div>
             </a>

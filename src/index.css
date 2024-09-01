@@ -17,7 +17,7 @@ code {
   --bg: rgb(24, 24, 24);
   --bg-secondary: rgb(28, 28, 28);
   --bg-accent: rgb(32, 32, 32);
-  --margins: 0 10vw 0 10vw;
+  --margins: 0 15vw 0 15vw;
   --text-colour: rgb(255, 255, 255);
   --border: 1px solid rgb(39, 39, 39);
   --border-radius: 30px;
@@ -39,8 +39,18 @@ h1 {
   color: var(--text-colour);
   font-size: 2.5rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin-top: 50px;
+  margin: 50px 0 30px 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-shadow: 1px 1px 2px rgb(190, 190, 190);
+}
+
+p {
+  color: var(--text-colour);
+  font-size: 1.2rem;
+  font-family: monospace;
+  text-align: start;
+  margin: var(--margins);
+  text-shadow: 1px 0px 1px rgb(190, 190, 190);
+  line-height: 1.5;
 }
