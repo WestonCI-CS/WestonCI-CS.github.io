@@ -10,9 +10,17 @@
     {
         "name": "Joshua Figueroa Caguimbay",
         "role": "Vice President",
-        "image": "https://media.discordapp.net/attachments/971044193088716840/1279274686085333092/IMG_6489.png?ex=66d3d8e4&is=66d28764&hm=403bd0dfeebb74e89e2db5906b6414a4cb3e7c93fc70114dcc03eaada5f77d5e&=&format=webp&quality=lossless&width=673&height=671",
+        "image": "https://cdn.discordapp.com/attachments/971044193088716840/1279274686085333092/IMG_6489.png?ex=66d5d324&is=66d481a4&hm=40777d14ab7bf97a0521397cf92935453803ddf86fdb48bf0ade1b31a522db8b&",
         "gradientStart": "#224b9c",
         "gradientEnd": "#83e1ff",
+        "link": ""
+    }, 
+    {
+        "name": "Example",
+        "role": "Example",
+        "image": "https://avatars.githubusercontent.com/u/145513842?v=4",
+        "gradientStart": "#23deff",
+        "gradientEnd": "#23a2ff",
         "link": ""
     }, 
     {
