@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Vu Nguyen",
+        "role": "Founder/President",
+        "image": "vupfp.png",
+        "gradientStart": "#f5f5f5",
+        "gradientEnd": "#fda085",
+        "link": ""
+    },
+    {
+        "name": "Joshua Figueroa Caguimbay",
+        "role": "Vice President",
+        "image": "joshpfp.png",
+        "gradientStart": "#224b9c",
+        "gradientEnd": "#83e1ff",
+        "link": ""
+    }, 
+    {
+        "name": "Ian Comer",
+        "role": "Treasurer",
+        "image": "ianpfp.png",
+        "gradientStart": "#000000",
+        "gradientEnd": "#C11A1A",
+        "link": ""
+    },
+    {
+        "name": "Ethan Huynh",
+        "role": "Member",
+        "image": "ethanpfp.png",
+        "gradientStart": "#b731e6",
+        "gradientEnd": "#23a2ff",
+        "link": ""
+    }, 
+    {
+        "name": "Johnson Mac",
+        "role": "Member",
+        "image": "johnsonpfp.png",
+        "gradientStart": "#191970",
+        "gradientEnd": "#70AFF9",
+        "link": ""
+    },
+    {
+        "name": "Kieu Huynh",
+        "role": "Member",
+        "image": "kieupfp.png",
+        "gradientStart": "#f4cccc",
+        "gradientEnd": "#fceeee",
+        "link": ""
+    }
+]

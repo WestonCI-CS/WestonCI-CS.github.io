@@ -1,0 +1,13 @@
+footer {
+    background-color: var(--bg-accent);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    bottom: 0;
+    z-index: 99;
+}
+
+.copyright {
+    color: var(--text-colour);
+    font-size: 0.8rem;
+}
