@@ -2,7 +2,7 @@
     {
         "name": "Vu Nguyen",
         "role": "Founder/President",
-        "image": "https://avatars.githubusercontent.com/u/145513842?v=4",
+        "image": "vupfp.png",
         "gradientStart": "#f5f5f5",
         "gradientEnd": "#fda085",
         "link": ""
@@ -10,25 +10,41 @@
     {
         "name": "Joshua Figueroa Caguimbay",
         "role": "Vice President",
-        "image": "https://cdn.discordapp.com/attachments/971044193088716840/1279274686085333092/IMG_6489.png?ex=66d5d324&is=66d481a4&hm=40777d14ab7bf97a0521397cf92935453803ddf86fdb48bf0ade1b31a522db8b&",
+        "image": "joshpfp.png",
         "gradientStart": "#224b9c",
         "gradientEnd": "#83e1ff",
         "link": ""
     }, 
     {
-        "name": "Example",
-        "role": "Example",
-        "image": "https://avatars.githubusercontent.com/u/145513842?v=4",
-        "gradientStart": "#23deff",
+        "name": "Ian Comer",
+        "role": "Treasurer",
+        "image": "ianpfp.png",
+        "gradientStart": "#000000",
+        "gradientEnd": "#C11A1A",
+        "link": ""
+    },
+    {
+        "name": "Ethan Huynh",
+        "role": "Member",
+        "image": "ethanpfp.png",
+        "gradientStart": "#b731e6",
         "gradientEnd": "#23a2ff",
         "link": ""
     }, 
     {
-        "name": "Example",
-        "role": "Example",
-        "image": "https://avatars.githubusercontent.com/u/145513842?v=4",
-        "gradientStart": "#23deff",
-        "gradientEnd": "#23a2ff",
+        "name": "Johnson Mac",
+        "role": "Member",
+        "image": "johnsonpfp.png",
+        "gradientStart": "#191970",
+        "gradientEnd": "#70AFF9",
+        "link": ""
+    },
+    {
+        "name": "Kieu Huynh",
+        "role": "Member",
+        "image": "kieupfp.png",
+        "gradientStart": "#f4cccc",
+        "gradientEnd": "#fceeee",
         "link": ""
     }
 ]
