@@ -73,7 +73,7 @@ export default function About(){
                 Interested in joining our club? Sign up today and 
                 become a part of our community!
             </h4>
-                <button className="enlarged-join-button">JOIN NOW</button>
+                <button className="enlarge primary-button">JOIN NOW</button>
             </FadeIn>
         </div>
     );
