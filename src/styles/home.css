@@ -7,4 +7,19 @@
     justify-content: left;  
     margin: var(--margins);  
     margin-top: 25px !important;
+    margin-bottom: 180px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.background {
+    animation: fade var(--speed) 0.2s backwards;
 }

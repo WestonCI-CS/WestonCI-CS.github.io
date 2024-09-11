@@ -16,5 +16,5 @@
 }
 
 .fade-in.is-visible {
-    animation: fade-in var(--speed) forwards; /* Apply the animation */
+    animation: fade-in var(--speed) forwards;
 }

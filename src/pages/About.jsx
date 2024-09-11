@@ -1,5 +1,6 @@
 import "../styles/about.css";
 import FadeIn from "../vfx/FadeIn";
+import BulletPoint from "../components/BulletPoint";
 
 export default function About(){
     return (
@@ -35,36 +36,24 @@ export default function About(){
             <FadeIn>
             <h2 className="section-subtitle learn-more">Learn more about us</h2>
             <div className="bullet-points">
-                <div className="point">
-                    <h3 className="tetiary-title">Active Community</h3>
-                    <h4 className="point-body">
-                        We have an active discord server if you're 
-                        interested in joining or want to hangout!
-                    </h4>
-                    <a className="link" href="https://discord.gg/mtv9s3HMNb">
-                        Join our Discord<span> →</span>
-                    </a>
-                </div>
-                <div className="point">
-                    <h3 className="tetiary-title">Events and Resources</h3>
-                    <h4 className="point-body">
-                        Get the latest on news and event through our
-                        Google Classroom.
-                    </h4>
-                    <a className="link" href="https://classroom.google.com/c/NjYwNzkwMzgwMjU1?cjc=wchzva2">
-                        Join our Google Classroom<span> →</span>
-                    </a>
-                </div>
-                <div className="point">
-                    <h3 className="tetiary-title">Projects</h3>
-                    <h4 className="point-body">
-                        Check out our latest student-led projects. Contribute or
-                        test them out!
-                    </h4>
-                    <a className="link" href="/projects">
-                        Go to Projects<span> →</span>
-                    </a>
-                </div>
+                <BulletPoint 
+                    title="Active Community"
+                    body="We have an active discord server if you're interested in joining or want to hangout!"
+                    link="https://discord.gg/mtv9s3HMNb"
+                    linkText="Join our Discord"
+                />
+                <BulletPoint 
+                    title="Events and Resources"
+                    body="Get the latest on news and event through our Google Classroom."
+                    link="https://classroom.google.com/c/NjYwNzkwMzgwMjU1?cjc=wchzva2"
+                    linkText="Join our Google Classroom"
+                />
+                <BulletPoint 
+                    title="Projects"
+                    body="Check out our latest student-led projects. Contribute or test them out!"
+                    link="/projects"
+                    linkText="Go to Projects"
+                />
             </div>
             </FadeIn>
 
