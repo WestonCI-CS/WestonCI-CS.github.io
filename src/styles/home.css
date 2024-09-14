@@ -1,25 +1,24 @@
 .home {     
-    margin: var(--margins); 
+    display: flex; 
+    justify-content: center;   
+    align-items: center;
+    text-align: center;
+    margin: var(--margins);
 }  
 
-.front {    
-    display: flex; 
-    justify-content: left;  
-    margin: var(--margins);  
-    margin-top: 25px !important;
-    margin-bottom: 180px;
+.home-main {
+    margin-top: 29vh;
 }
 
-@keyframes fade {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+.front {      
+    margin-top: 15px !important;
 }
 
 .background {
-    animation: fade var(--speed) 0.2s backwards;
+    z-index: -1;
+    background-image: url('../assets/images/main/home-bg.png');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

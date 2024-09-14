@@ -17,7 +17,7 @@ code {
   --bg: rgb(24, 24, 24);
   --bg-secondary: rgb(28, 28, 28);
   --bg-accent: rgb(32, 32, 32);
-  --margins: 0 15vw 0 15vw;
+  --margins: 0 16vw 0 16vw;
   --text-colour: rgb(255, 255, 255);
   --border: 1px solid rgb(39, 39, 39);
   --border-radius: 30px;
@@ -33,15 +33,6 @@ ul {
 a {
   color: var(--text-colour);
   text-decoration: none;
-}
-
-.background {
-  filter: brightness(50%) saturate(140%);
-  z-index: -1;
-  position: absolute;
-  width: 2000px;
-  left: 0;
-  top: 0;
 }
 
 h1 {

@@ -1,10 +1,12 @@
 footer {
     background-color: var(--bg-accent);
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    bottom: 0;
+    height: 60px;
     z-index: 99;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .copyright {
