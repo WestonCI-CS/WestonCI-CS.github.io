@@ -108,3 +108,8 @@ p {
   margin-bottom: 20px !important;
   text-shadow: 1px 1px 1px rgb(190, 190, 190);
 }
+
+.enlarge {
+  scale: 1.2;
+  margin-bottom: 70px;
+}

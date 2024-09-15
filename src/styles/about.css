@@ -71,11 +71,6 @@
     margin-bottom: 50px;
 }
 
-.enlarge {
-    scale: 1.2;
-    margin-bottom: 70px;
-}
-
 @media screen and (max-width: 1340px) {
     .about-subtitle {
         margin: var(--margins);
