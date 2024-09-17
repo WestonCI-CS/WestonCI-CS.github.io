@@ -17,7 +17,7 @@ export default function Home(){
                 <p className="enlarge home section-subtitle">
                     <HoverTypeWriter 
                         defaultText="Discover. Create. Innovate."
-                        newText="We are a Team of High School Developers Dedicated to Exploring the World of Technology"
+                        newText="Youth-led Innovation to Save the World."
                     />
                 </p> 
                 <button className="enlarge front primary-button" onClick={handleButtonClick}>ABOUT US</button>

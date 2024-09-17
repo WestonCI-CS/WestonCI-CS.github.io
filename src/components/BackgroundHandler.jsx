@@ -10,5 +10,10 @@ export default function BackgroundHandler({ children }) {
         setBG(false);
     }, [location]);
   
-    return <div className={bg ? "background" : ""}>{children}</div>;
+    return <div 
+        className={bg ? "background" : ""} 
+        alt={bg ? "Computer monitor with JavaScript files open in a code editor." : ""}
+        >
+            {children}
+        </div>;
 }

@@ -15,9 +15,8 @@ export default function Projects(){
     return(
         <div>
             <FadeIn>
-                <h1>Club Projects</h1>
+                {projectData}
             </FadeIn>
-            {projectData}
         </div>
     );
 }

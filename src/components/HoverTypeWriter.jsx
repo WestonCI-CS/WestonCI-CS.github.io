@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function HoverTypeWriter({ defaultText, newText, speed }){
+export default function HoverTypeWriter({ defaultText, newText }){
     const [text, setText] = useState(defaultText);
     const [isAnimating, setIsAnimating] = useState(false);
     const [blink, setBlink] = useState("|");
@@ -8,11 +8,11 @@ export default function HoverTypeWriter({ defaultText, newText, speed }){
     const animationPlayState = text === newText ? 'paused' : 'initial';
 
     return(
-        <span style={{animationPlayState: animationPlayState}} className="json" 
+        <span style={{animationPlayState: animationPlayState}} className="typewriter" 
         onMouseEnter={() => 
             ResetText(defaultText, isAnimating, setIsAnimating, setText, newText, defaultText, setBlink)
         }>
-            {text}<BlinkPipe blink={blink} setBlink={setBlink} />
+            {text}<pre><BlinkPipe blink={blink} setBlink={setBlink} /></pre>
         </span>
     );
 }
@@ -84,7 +84,7 @@ const BlinkPipe = ({ blink, setBlink }) => {
         
     useEffect(() => {
         const interval = setInterval(() => {
-            setBlink(prev => (prev === "|" ? "" : "|"));
+            setBlink(prev => (prev === "|" ? " " : "|"));
         }, 500);
         return () => clearInterval(interval);
     });

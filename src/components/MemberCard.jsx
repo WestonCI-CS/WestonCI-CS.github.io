@@ -1,14 +1,14 @@
 import "../styles/memberCard.css";
 import FadeIn from "../vfx/FadeIn";
 
-export default function MemberCard({link, style, image, name, role}){
+export default function MemberCard({link, style, image, name, alt, role}){
     return(
         <FadeIn>
             <a href={link}>
                 <div className="card" style={style}>
                     <img 
                         src={image} 
-                        alt={name} 
+                        alt={alt} 
                         className="card-image" 
                     />
                     <div className="card-content">

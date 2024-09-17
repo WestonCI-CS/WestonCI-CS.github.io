@@ -3,13 +3,10 @@ import MemberCard from "../components/MemberCard";
 import members from "../json/members.json";
 
 export default function Members(){
-    const getPFP = (file) => {
-        return require(`../assets/images/pfp/${file}`);
-    }
-
     const memberData = members.map(member => (
         <MemberCard
             image={getPFP(member.image)}
+            alt={member.alt}
             name={member.name}
             style={{backgroundImage: `linear-gradient(120deg, ${member.gradientStart} 0%, ${member.gradientEnd} 100%)`}}
             role={member.role}
@@ -25,4 +22,8 @@ export default function Members(){
             {memberData}
         </div>
     );
+}
+
+const getPFP = (file) => {
+    return require(`../assets/images/pfp/${file}`);
 }

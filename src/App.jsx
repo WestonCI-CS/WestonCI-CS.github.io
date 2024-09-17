@@ -3,6 +3,7 @@ import './styles/scrollbar.css';
 import "./styles/fadeIn.css";
 import Home from './pages/Home';
 import Members from './pages/Members';
+import Projects from './pages/Projects';
 import About from './pages/About';
 import Navbar from './components/header/Navbar';
 import Footer from './components/footer/Footer';
@@ -20,6 +21,7 @@ export default function App() {
               <Route path="/" element={<Home />} />
               <Route path="about" element={<About />} />
               <Route path="members" element={<Members />} />
+              <Route path="projects" element={<Projects />} />
             </Routes>
           </BackgroundHandler>
           <Footer />

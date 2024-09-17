@@ -3,6 +3,7 @@
         "name": "Vu Nguyen",
         "role": "Founder/President",
         "image": "vupfp.png",
+        "alt": "White dog stuck inside a cat tree.",
         "gradientStart": "#f5f5f5",
         "gradientEnd": "#fda085",
         "link": ""
@@ -11,6 +12,7 @@
         "name": "Joshua Figueroa Caguimbay",
         "role": "Vice President",
         "image": "joshpfp.png",
+        "alt": "Isagi Yoiichi from the anime series, 'Blue Lock'.",
         "gradientStart": "#224b9c",
         "gradientEnd": "#83e1ff",
         "link": ""
@@ -19,6 +21,7 @@
         "name": "Ian Comer",
         "role": "Treasurer",
         "image": "ianpfp.png",
+        "alt": "Sonoridade Underground Ghost",
         "gradientStart": "#000000",
         "gradientEnd": "#C11A1A",
         "link": ""
@@ -27,6 +30,7 @@
         "name": "Ethan Huynh",
         "role": "Member",
         "image": "ethanpfp.png",
+        "alt": "Raiden Shogun from the game, 'Genshin Impact'.",
         "gradientStart": "#b731e6",
         "gradientEnd": "#23a2ff",
         "link": ""
@@ -35,6 +39,7 @@
         "name": "Johnson Mac",
         "role": "Member",
         "image": "johnsonpfp.png",
+        "alt": "Chopper from the anime, 'One Piece'.",
         "gradientStart": "#191970",
         "gradientEnd": "#70AFF9",
         "link": ""
@@ -43,6 +48,7 @@
         "name": "Kieu Huynh",
         "role": "Member",
         "image": "kieupfp.png",
+        "alt": "Hello Kitty wearing a pink bunny suit.",
         "gradientStart": "#f4cccc",
         "gradientEnd": "#fceeee",
         "link": ""
