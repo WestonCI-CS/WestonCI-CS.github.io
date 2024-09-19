@@ -74,6 +74,7 @@ p {
 .primary-button:hover {
   background-image: linear-gradient(150deg, rgb(208, 102, 15) 0%, rgb(134, 104, 64) 100%) !important;
   transition: ease 0.2s;
+  cursor: pointer;
 }
 
 .secondary-button {
@@ -91,6 +92,7 @@ p {
 .secondary-button:hover {
   background-image: linear-gradient(150deg, #136abb 0%, rgb(75, 133, 165) 100%) !important;
   transition: ease 0.2s;
+  cursor: pointer;
 }
  
 .section-title {

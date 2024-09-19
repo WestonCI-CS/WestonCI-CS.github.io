@@ -1,5 +1,14 @@
 import { useEffect, useState } from "react";
 
+/**
+ * HoverTypeWriter component displays a typewriter effect on hover.
+ *
+ * @component
+ * @param {Object} props - The component props.
+ * @param {string} props.defaultText - The default text to display.
+ * @param {string} props.newText - The text to display on hover.
+ * @returns {JSX.Element} The rendered HoverTypeWriter component.
+ */
 export default function HoverTypeWriter({ defaultText, newText }){
     const [text, setText] = useState(defaultText);
     const [isAnimating, setIsAnimating] = useState(false);
