@@ -5,7 +5,7 @@ import projects from "../json/projects.json";
 export default function Projects(){
     const projectData = projects.map(project => (
         <ProjectCard
-            image={project.image}
+            image={getProjectImage(project.image)}
             name={project.name}
             description={project.description}
             github={project.github}
@@ -15,8 +15,14 @@ export default function Projects(){
     return(
         <div>
             <FadeIn>
-                {projectData}
+                <div className="projects-container">
+                    {projectData}
+                </div>
             </FadeIn>
         </div>
     );
+}
+
+const getProjectImage = (file) => {
+    return require(`../assets/images/projects/${file}`);
 }

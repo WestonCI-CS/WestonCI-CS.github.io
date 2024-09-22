@@ -45,7 +45,7 @@ export default function Navbar(){
                 <div className="join-button-div">
                     <NavItem 
                         className="secondary-button nav-join" 
-                        link="https://github.com/WestonCI-CS/WestonCI-CS.github.io"
+                        link="https://forms.gle/P2XMST37cT7YKsVK7"
                         text="JOIN NOW" 
                         onClick={toggleMenu} 
                     />

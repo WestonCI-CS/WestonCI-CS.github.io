@@ -1,6 +1,6 @@
-import './App.css';
+import './styles/App.css';
 import './styles/scrollbar.css';
-import "./styles/fadeIn.css";
+import './styles/fadeIn.css';
 import Home from './pages/Home';
 import Members from './pages/Members';
 import Projects from './pages/Projects';

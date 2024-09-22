@@ -103,6 +103,10 @@ nav.scrolled {
         z-index: 100;
         transition: transform var(--speed) ease-in;
     }
+
+    .right-nav li {
+        margin-left: 0;
+    }
     
     .right-nav.show {
         transform: translateX(0px);

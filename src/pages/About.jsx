@@ -1,8 +1,10 @@
 import "../styles/about.css";
 import FadeIn from "../vfx/FadeIn";
-import BulletPoint from "../components/BulletPoint";
+import TriplePoint from "../components/TriplePoint";
 
 export default function About(){
+
+
     return (
         <div>
             <FadeIn>
@@ -35,20 +37,20 @@ export default function About(){
 
             <FadeIn>
             <h2 className="section-subtitle learn-more">Learn more about us</h2>
-            <div className="bullet-points">
-                <BulletPoint 
+            <div className="triple-points">
+                <TriplePoint 
                     title="Active Community"
                     body="We have an active discord server if you're interested in joining or want to hangout!"
                     link="https://discord.gg/mtv9s3HMNb"
                     linkText="Join our Discord"
                 />
-                <BulletPoint 
+                <TriplePoint 
                     title="Events and Resources"
                     body="Get the latest on news and event through our Google Classroom."
                     link="https://classroom.google.com/c/NjYwNzkwMzgwMjU1?cjc=wchzva2"
                     linkText="Join our Google Classroom"
                 />
-                <BulletPoint 
+                <TriplePoint 
                     title="Projects"
                     body="Check out our latest student-led projects. Contribute or test them out!"
                     link="/projects"
@@ -62,7 +64,9 @@ export default function About(){
                 Interested in joining our club? Sign up today and 
                 become a part of our community!
             </h4>
-                <button className="enlarge primary-button">JOIN NOW</button>
+                <a href="https://forms.gle/P2XMST37cT7YKsVK7">
+                    <button className="enlarge primary-button">JOIN NOW</button>
+                </a>
             </FadeIn>
         </div>
     );

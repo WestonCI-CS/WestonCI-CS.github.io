@@ -7,9 +7,11 @@
  * @param {string} [props.link] - The URL for the optional link.
  * @param {string} [props.linkText] - The text for the optional link.
  * @returns {JSX.Element} The rendered BulletPoint component.
+ * 
+ * @example
+ * <div className=""
  */
-export default function BulletPoint({ title, body, link, linkText }) {
-    //Wrap this function in a div called "bullet-points"
+export default function TriplePoint({ title, body, link, linkText }) {
     return (
         <div className="point">
             <h3 className="tetiary-title">{title}</h3>
