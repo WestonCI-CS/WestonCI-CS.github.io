@@ -1,0 +1,35 @@
+.projects-container {
+    display: flex;
+    margin: var(--margins);
+    border-color: #ffffff;
+}
+
+.projects-text {
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+}
+
+.carousel {
+    display: grid;
+    grid-auto-flow: row;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    grid-auto-rows: 21%;
+    gap: 525px;
+    width: 40%;
+    max-height: 750px;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 0 24px;
+    margin-bottom: 100px;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.unfocused {
+    opacity: 0;
+}

@@ -12,7 +12,7 @@ import "../styles/projectCard.css";
  */
 export default function ProjectCard({ image, name, github }){
     return(
-        <div className="project">
+        <li className="project">
             <img 
                 src={image} 
                 alt={name} 
@@ -21,6 +21,6 @@ export default function ProjectCard({ image, name, github }){
             <div className="project-content">
                 <h2 className="project-name">{name}</h2>
             </div>
-        </div>
+        </li>
     );
 }

@@ -1,28 +1,32 @@
+import "../styles/projects.css";
 import FadeIn from "../vfx/FadeIn";
 import ProjectCard from "../components/ProjectCard";
 import projects from "../json/projects.json";
 
-export default function Projects(){
+export default function Projects() {
     const projectData = projects.map(project => (
         <ProjectCard
-            image={getProjectImage(project.image)}
+            image={getImage(project.image)}
             name={project.name}
-            description={project.description}
             github={project.github}
         />
     ));
 
-    return(
-        <div>
-            <FadeIn>
-                <div className="projects-container">
+    return (
+        <div className="projects-container">
+                <ul className="carousel">
                     {projectData}
+                </ul>
+                <div className="projects-text">
+                    <h1 className="section-title projects-section">About Us</h1>
+                    <h2 className="section-subtitle projects-section">
+                        Weston Collegiate Institute's Hub for Youth-led Technological Innovation
+                    </h2>
                 </div>
-            </FadeIn>
         </div>
     );
 }
 
-const getProjectImage = (file) => {
+const getImage = (file) => {
     return require(`../assets/images/projects/${file}`);
-}
+};
