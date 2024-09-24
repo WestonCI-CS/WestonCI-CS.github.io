@@ -1,4 +1,5 @@
 import "../styles/projectCard.css";
+import { FaGithub } from "react-icons/fa";
 
 /**
  * ProjectCard component renders a card with an image and a project name.
@@ -18,8 +19,9 @@ export default function ProjectCard({ image, name, github }){
                 alt={name} 
                 className="project-image" 
             />
+            <h2 className="project-name">{name}</h2>
             <div className="project-content">
-                <h2 className="project-name">{name}</h2>
+                <a className="github" href={github}><FaGithub /> GitHub</a>
             </div>
         </li>
     );

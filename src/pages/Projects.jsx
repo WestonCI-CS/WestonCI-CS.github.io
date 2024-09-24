@@ -14,15 +14,18 @@ export default function Projects() {
 
     return (
         <div className="projects-container">
-                <ul className="carousel">
-                    {projectData}
-                </ul>
-                <div className="projects-text">
-                    <h1 className="section-title projects-section">About Us</h1>
-                    <h2 className="section-subtitle projects-section">
-                        Weston Collegiate Institute's Hub for Youth-led Technological Innovation
-                    </h2>
-                </div>
+            <ul className="carousel">
+                {projectData}
+            </ul>
+            <div className="projects-text">
+                <h1 id="projects-title" className="section-title">Projects</h1>
+                <h2 id="projects-subtitle" className="section-subtitle">
+                    Discover our creativity and passion in student-led projects.
+                </h2>
+                <p id="projects-body" className="text-body">
+                    Contribute to the latest open-source projects or explore our existing works. 
+                </p>
+            </div>
         </div>
     );
 }
