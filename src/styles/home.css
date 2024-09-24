@@ -1,0 +1,30 @@
+.home {     
+    display: flex; 
+    justify-content: center;   
+    align-items: center;
+    text-align: center;
+    margin: var(--margins);
+}  
+
+.home-main {
+    margin-top: clamp(275px, 20vw, 325px);
+}
+
+.front {      
+    margin-top: 15px !important;
+}
+
+.background {
+    z-index: -1;
+    background-image: url('../assets/images/main/home-bg.png');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1340px) {
+    .typewriter {
+        margin: 0;
+    }
+}

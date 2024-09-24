@@ -1,0 +1,79 @@
+.secondary-section {
+    padding: 150px 0 50px 0;
+    background-color: var(--bg-secondary);
+} 
+
+.mission {
+    margin: var(--margins);
+    text-align: center;
+}
+
+.text-body {
+    margin-bottom: 150px;
+}
+
+.learn-more {
+    text-align: center;
+    margin: var(--margins);
+    padding: 150px 0 100px 0;
+}
+
+.tetiary-title {
+    color: var(--text-colour);
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.triple-points {
+    display: flex;
+    justify-content: center;
+}
+
+.point {
+    display: block;
+    color: var(--text-colour);
+    font-family: monospace;
+    font-size: clamp(0.8rem, 1vw, 1rem);
+    text-align: left;
+    width: 20%;
+    margin: 0 5vw 150px 5vw;
+}
+
+.point-body {
+    text-align: left;
+    margin: -10px 3vw 20px 0;
+}
+
+.link {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    line-height: 20px;
+    position: relative;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.link:hover > span {
+    margin-left: 5px;
+    transition: margin-left var(--speed) ease; 
+}
+
+.link span {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    text-decoration: none !important;
+}
+
+.join-body {
+    color: var(--text-colour);
+    font-size: 2rem;
+    margin: var(--margins);
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1340px) {
+    .about-subtitle {
+        margin: var(--margins);
+    }
+}

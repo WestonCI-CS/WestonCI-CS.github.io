@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Club Website",
+        "description": "Official Website for Weston Collegiate Institute's Computer Science Club",
+        "image": "club-website.png",
+        "alt": "",
+        "github": "https://github.com/WestonCI-CS/WestonCI-CS.github.io"
+    },
+    {
+        "name": "Phantasy",
+        "description": "Text-based MMORPG hosted on Discord.",
+        "image": "phantasy.png",
+        "alt": "",
+        "github": "https://github.com/vunguyen312/Phantasy"
+    }
+]
