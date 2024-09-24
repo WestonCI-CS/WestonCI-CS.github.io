@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f7c4d255.css",
+    "main.js": "/static/js/main.7141798a.js",
+    "static/js/453.da34d30b.chunk.js": "/static/js/453.da34d30b.chunk.js",
+    "static/media/phantasy.png": "/static/media/phantasy.144afce05bc4416b0a7f.png",
+    "static/media/vupfp.png": "/static/media/vupfp.5956d45bb7cb9daac151.png",
+    "static/media/club-website.png": "/static/media/club-website.0ad19ab88bc174b6f1e0.png",
+    "static/media/home-bg.png": "/static/media/home-bg.762e6ee4df94e29ff5fb.png",
+    "static/media/joshpfp.png": "/static/media/joshpfp.0ae6a95fca59ccc5b985.png",
+    "static/media/ethanpfp.png": "/static/media/ethanpfp.c07b1207eaec4df03960.png",
+    "static/media/ianpfp.png": "/static/media/ianpfp.baf6af8f8c93ccf10eb5.png",
+    "static/media/johnsonpfp.png": "/static/media/johnsonpfp.05baaae9ed2596aa288b.png",
+    "static/media/kieupfp.png": "/static/media/kieupfp.7d8cb777fb1624628e54.png",
+    "index.html": "/index.html",
+    "main.f7c4d255.css.map": "/static/css/main.f7c4d255.css.map",
+    "main.7141798a.js.map": "/static/js/main.7141798a.js.map",
+    "453.da34d30b.chunk.js.map": "/static/js/453.da34d30b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7c4d255.css",
+    "static/js/main.7141798a.js"
+  ]
+}
