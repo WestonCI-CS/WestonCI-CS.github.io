@@ -17,7 +17,11 @@ export default function Members(){
     return(
         <div>
             <FadeIn>
-                <h1>Members</h1>
+                <h1 className="section-title">Members</h1>
+                <h2 className="section-subtitle">
+                    Weston CI's brightest minds in technology and innovation.
+                </h2>
+                <p className="text-body">The coolest people you'll ever meet.</p>
             </FadeIn>
             {memberData}
         </div>

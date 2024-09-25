@@ -20,6 +20,7 @@ code {
   --margins: 0 16vw 0 16vw;
   --text-colour: rgb(255, 255, 255);
   --border: 1px solid rgb(39, 39, 39);
+  --font-family: "Poppins", sans-serif;
   --border-radius: 30px;
   --speed: 600ms;
 }
@@ -42,7 +43,7 @@ pre {
 h1 {
   color: var(--text-colour);
   font-size: 2.5rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: var(--font-family);
   margin: 50px 0 50px 0;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -105,9 +106,9 @@ p {
   font-size: clamp(1.8rem, 2vw, 2.5rem);
   text-align: left;
   line-height: clamp(2rem, 4vw, 3rem);
-  font-weight: 1000;
+  font-weight: 600;
   color: var(--text-colour);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: var(--font-family);
   margin: var(--margins);
   margin-right: 40%;
   margin-bottom: 20px !important;

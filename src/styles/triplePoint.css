@@ -1,0 +1,31 @@
+.triple-points {
+    display: flex;
+    justify-content: center;
+}
+
+.point {
+    display: block;
+    color: var(--text-colour);
+    font-family: monospace;
+    font-size: clamp(0.8rem, 1vw, 1rem);
+    text-align: left;
+    width: 20%;
+    margin: 0 5vw 150px 5vw;
+}
+
+.point-body {
+    text-align: left;
+    margin: 0 4vw 20px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .triple-points {
+        flex-direction: column;
+        margin: var(--margins);
+        margin-bottom: 150px;
+    }
+    .point {
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+}

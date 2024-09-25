@@ -1,3 +1,5 @@
+import "../styles/triplePoint.css";
+
 /**
  * BulletPoint component renders a bullet point with a title, body, and an optional link.
  *
