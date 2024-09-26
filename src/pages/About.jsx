@@ -55,7 +55,7 @@ export default function About(){
                 <TriplePoint 
                     title="Projects"
                     body="Check out our latest student-led projects. Contribute or test them out!"
-                    link="/projects"
+                    link="/#/projects"
                     linkText="Go to Projects"
                 />
             </div>

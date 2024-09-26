@@ -50,7 +50,7 @@ nav.scrolled {
 .right-nav {
     float: right;
     margin-top: 8px;
-    margin-right: 16vw;
+    margin-right: 15.5vw;
 }
 
 .dropdown-btn {
@@ -78,6 +78,12 @@ nav.scrolled {
 
 .join-button-div {
     display: inline;
+}
+
+@media screen and (max-width: 500px) {
+    .home-button {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 1340px) {

@@ -115,6 +115,10 @@ p {
   text-shadow: 1px 1px 1px rgb(190, 190, 190);
 }
 
+.text-body {
+  margin-bottom: 150px;
+}
+
 .enlarge {
   scale: 1.2;
   margin-bottom: 70px;
