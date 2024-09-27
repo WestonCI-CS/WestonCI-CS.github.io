@@ -29,17 +29,16 @@ nav.scrolled {
 
 .home-button {
     float: left;
-    padding: .25rem;
-    margin-left: 15.5vw;
+    margin-left: 16vw;
     text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 1px 2px 2px rgb(190, 190, 190);
-    font-weight: 500;
+    font-family: var(--font-family);
+    text-shadow: 1px 1px 2px rgb(190, 190, 190);
+    font-weight: 700;
     font-size: 30px;
 }
 
 .home-button:hover {
-    text-shadow: 0px 2px 1px rgb(190, 190, 190);
+    text-shadow: 0px 0px 1px rgb(190, 190, 190);
     transition: ease 0.3s;
 }
 
@@ -50,7 +49,7 @@ nav.scrolled {
 
 .right-nav {
     float: right;
-    margin-top: 5px;
+    margin-top: 8px;
     margin-right: 15.5vw;
 }
 
@@ -79,6 +78,12 @@ nav.scrolled {
 
 .join-button-div {
     display: inline;
+}
+
+@media screen and (max-width: 500px) {
+    .home-button {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 1340px) {

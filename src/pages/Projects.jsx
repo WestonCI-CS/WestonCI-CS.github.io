@@ -13,20 +13,22 @@ export default function Projects() {
     ));
 
     return (
-        <div className="projects-container">
-            <ul className="carousel">
-                {projectData}
-            </ul>
-            <div className="projects-text">
-                <h1 id="projects-title" className="section-title">Projects</h1>
-                <h2 id="projects-subtitle" className="section-subtitle">
-                    Discover our creativity and passion in student-led projects.
-                </h2>
-                <p id="projects-body" className="text-body">
-                    Contribute to the latest open-source projects or explore our existing works. 
-                </p>
+        <FadeIn>
+            <div className="projects-container">
+                    <ul className="carousel">
+                        {projectData}
+                    </ul>
+                    <div className="projects-text">
+                        <h1 id="projects-title" className="section-title">Projects</h1>
+                        <h2 id="projects-subtitle" className="section-subtitle">
+                            Discover our Creativity and Passion in Student-led Projects.
+                        </h2>
+                        <p id="projects-body" className="text-body">
+                            Contribute to the latest open-source projects or explore our existing works. 
+                        </p>
+                    </div>
             </div>
-        </div>
+        </FadeIn>
     );
 }
 

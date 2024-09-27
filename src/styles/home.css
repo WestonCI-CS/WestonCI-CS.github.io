@@ -7,7 +7,7 @@
 }  
 
 .home-main {
-    margin-top: clamp(275px, 20vw, 325px);
+    margin-top: clamp(150px, 50vw, 325px);
 }
 
 .front {      

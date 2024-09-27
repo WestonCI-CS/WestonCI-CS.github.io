@@ -3,7 +3,9 @@ import FadeIn from "../vfx/FadeIn";
 import TriplePoint from "../components/TriplePoint";
 
 export default function About(){
-
+    const discLink = "https://discord.gg/mtv9s3HMNb";
+    const gcLink = "https://classroom.google.com/c/NjYwNzkwMzgwMjU1?cjc=wchzva2"
+    const googleFormLink = "https://forms.gle/P2XMST37cT7YKsVK7";
 
     return (
         <div>
@@ -40,20 +42,20 @@ export default function About(){
             <div className="triple-points">
                 <TriplePoint 
                     title="Active Community"
-                    body="We have an active discord server if you're interested in joining or want to hangout!"
-                    link="https://discord.gg/mtv9s3HMNb"
+                    body="We have an active discord server if you're interested in joining or want to hang out!"
+                    link={discLink}
                     linkText="Join our Discord"
                 />
                 <TriplePoint 
                     title="Events and Resources"
                     body="Get the latest on news and event through our Google Classroom."
-                    link="https://classroom.google.com/c/NjYwNzkwMzgwMjU1?cjc=wchzva2"
+                    link={gcLink}
                     linkText="Join our Google Classroom"
                 />
                 <TriplePoint 
                     title="Projects"
                     body="Check out our latest student-led projects. Contribute or test them out!"
-                    link="/projects"
+                    link="/#/projects"
                     linkText="Go to Projects"
                 />
             </div>
@@ -64,7 +66,7 @@ export default function About(){
                 Interested in joining our club? Sign up today and 
                 become a part of our community!
             </h4>
-                <a href="https://forms.gle/P2XMST37cT7YKsVK7">
+                <a href={googleFormLink}>
                     <button className="enlarge primary-button">JOIN NOW</button>
                 </a>
             </FadeIn>

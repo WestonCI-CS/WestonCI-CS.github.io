@@ -7,8 +7,9 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import Navbar from './components/header/Navbar';
 import Footer from './components/footer/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import BackgroundHandler from './components/BackgroundHandler';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 
 export default function App() {
@@ -16,12 +17,13 @@ export default function App() {
       <Router>
         <div className="App">
           <BackgroundHandler>
+            <ScrollToTop />
             <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="about" element={<About />} />
-              <Route path="members" element={<Members />} />
-              <Route path="projects" element={<Projects />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/members" element={<Members />} />
+              <Route path="/projects" element={<Projects />} />
             </Routes>
           </BackgroundHandler>
           <Footer />
