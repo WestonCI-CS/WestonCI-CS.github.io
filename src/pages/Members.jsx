@@ -19,11 +19,13 @@ export default function Members(){
             <FadeIn>
                 <h1 className="section-title">Members</h1>
                 <h2 className="section-subtitle">
-                    Weston CI's brightest minds in technology and innovation.
+                    Weston CI's Brightest Minds in Technology and Innovation.
                 </h2>
                 <p className="text-body">The coolest people you'll ever meet.</p>
             </FadeIn>
-            {memberData}
+            <div className="secondary-section">
+                {memberData}
+            </div>
         </div>
     );
 }
