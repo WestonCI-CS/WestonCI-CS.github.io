@@ -23,9 +23,7 @@ export default function Members(){
                 </h2>
                 <p className="text-body">The coolest people you'll ever meet.</p>
             </FadeIn>
-            <div className="secondary-section">
-                {memberData}
-            </div>
+            {memberData}
         </div>
     );
 }

@@ -48,9 +48,18 @@
         "name": "Kieu Huynh",
         "role": "Member",
         "image": "kieupfp.png",
-        "alt": "Hello Kitty wearing a pink bunny suit.",
+        "alt": "Hello Kitty wearing a pink bunny costume.",
         "gradientStart": "#f4cccc",
         "gradientEnd": "#fceeee",
+        "link": ""
+    },
+    {
+        "name": "Daniel Laurence",
+        "role": "Member",
+        "image": "danielpfp.png",
+        "alt": "Blue penguin with top hat and cane dancing.",
+        "gradientStart": "#aef7ed",
+        "gradientEnd": "#76bbf8",
         "link": ""
     }
 ]

@@ -32,7 +32,8 @@
     overscroll-behavior-x: hidden;
     grid-auto-rows: 21%;
     gap: 525px;
-    padding-right: 400px;
+    width: 100%;
+    padding-right: 100px;
     max-height: 750px;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
